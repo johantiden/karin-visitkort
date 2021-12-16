@@ -1,0 +1,83 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css credit to https://codepen.io/joshuaward/pen/YMyPWr -->
+    <style>
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin-top: 2px;
+        }
+        body {
+            color: white;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(45deg, #E91E63, #9C27B0);
+        }
+
+        .card {
+            width: 30rem;
+            height: 20rem;
+            perspective: 150rem;
+            align-items: center;
+            display: flex;
+            padding-left: 21rem;
+            border-radius: 5px;
+            box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+            background: linear-gradient(45deg, #101010, #2c3e50);
+        }
+        .img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 5px 0 0 5px;
+            height: 100%;
+            box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+        }
+        .img > img {
+            border-radius: 5px 0 0 5px;
+
+            height: 100%;
+        }
+        .white-border {
+            border: 1px solid white;
+        }
+        .valign-center {
+            height: 15rem;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="card">
+    
+    <div class="img">
+        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFTo0mESgVL0A/profile-displayphoto-shrink_200_200/0/1601364188698?e=1645056000&amp;v=beta&amp;t=q-_H2h0324ZUtciZDf7iQpJY0x-dPH56tvoB6C_-jbg" alt="Karin Tidén (fd Ljunggren)" id="ember60" class="pv-top-card-profile-picture__image pv-top-card-profile-picture__image--show ember-view">
+    </div>
+    <div class="valign-center">
+        <h1>Karin Tidén</h1>
+        <span>Tidén Consulting AB</span>
+        <br/>
+        <a class="fa fa-phone" href="tel:+46736855999"> 0736855999</a>
+        <br/>
+        <a class="fa fa-envelope" href="mailto:karin@tidn.se"> karin@tidn.se</a>
+        <br/>
+
+    </div>
+
+    <div style="position: absolute; bottom:10px;">
+        <a class="fa fa-linkedin white-border" href="https://www.linkedin.com/in/karin-tid%C3%A9n-fd-ljunggren-b8a3202a/"></a>
+    </div>
+</div>
+<br/>
+
+
+
+</body>
+</html>
