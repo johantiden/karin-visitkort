@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Karin Tidén
+N;CHARSET=UTF-8:Tidén;Karin;;;
+GENDER:F
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:karin.tiden@gmail.com
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:karin@tidn.se
+TEL;TYPE=CELL:+46736855999
+TITLE;CHARSET=UTF-8:Founder
+ROLE;CHARSET=UTF-8:Financial Consulting
+ORG;CHARSET=UTF-8:Tidén Consulting AB
+URL;type=WORK;CHARSET=UTF-8:http://karin.tidn.se/
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/karin-tid%C3%A9n-fd-ljunggren-b8a3202a/
+REV:2021-12-16T22:12:06.600Z
+END:VCARD
